@@ -28,7 +28,7 @@ This can happen if a bar's camera is offline. Check back shortly.
 
 LineVision does not collect, store, or transmit any personal user data.
 
-All images are processed with care to avoid capturing recognizable faces. See our full [Privacy Policy](https://yourusername.github.io/linevision-support/privacy.html).
+All images are processed with care to avoid capturing recognizable faces. See our full [Privacy Policy](https://albearth.github.io/linevision-support/privacy.html).
 
 ---
 
