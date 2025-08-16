@@ -3,40 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LineVision – How It Works</title>
+  <title>LineVision – Know the Line Before You Go</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 50px auto;
-      padding: 20px;
-      color: #222;
-      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(to bottom right, #76b2fe, #b69efe);
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      padding: 40px 20px;
     }
+
+    .container {
+      max-width: 700px;
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    img.logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
     h1 {
-      font-size: 2.5em;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
       color: #111;
     }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #007aff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 10px;
+      margin-top: 25px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
     footer {
       margin-top: 40px;
-      font-size: 0.9em;
-      color: #666;
+      font-size: 0.9rem;
+      color: #555;
     }
-    a {
-      color: #3366cc;
+
+    footer a {
+      color: #007aff;
+      text-decoration: none;
+      margin: 0 8px;
     }
   </style>
 </head>
 <body>
-  <h1>LineVision – See the Line Before You Go</h1>
-  <p><strong>LineVision</strong> helps you avoid long waits by showing real-time crowd estimates outside participating bars. Using AI-based people counting and periodic image snapshots from camera-equipped venues, LineVision lets users make smarter decisions for their night out.</p>
-
-  <p>This app is launching with example/demo bars. As more bars sign on, real live images and wait estimates will appear in-app. We're actively expanding in Madison and the Twin Cities.</p>
-
-  <p><a href="./">Back to Support</a></p>
-
-  <footer>
-    <p>&copy; 2025 LineVision</p>
-  </footer>
+  <div class="container">
+    <img class="logo" src="logo.png" alt="LineVision logo">
+    <h1>LineVision</h1>
+    <p><strong>See the line before you go.</strong></p>
+    <p>LineVision shows you live crowd levels at participating bars using anonymized images and AI-powered people counting. Avoid long waits, and plan your night smarter.</p>
+    <p>Currently launching with demo venues. Real-time feeds will appear as more bars join the platform in Madison and the Twin Cities.</p>
+    <a href="https://apps.apple.com/" class="button">Download on the App Store</a>
+    <footer>
+      <p>
+        <a href="./">Support</a> |
+        <a href="./privacy.html">Privacy Policy</a>
+      </p>
+      <p>&copy; 2025 LineVision</p>
+    </footer>
+  </div>
 </body>
 </html>
