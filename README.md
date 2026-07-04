@@ -35,6 +35,6 @@ All images are processed with care to avoid capturing recognizable faces. See ou
 ## 📬 Contact
 
 If you have questions, suggestions, or are a bar interested in participating, please email:  
-**linevisionapp@gmail.com**
+**linevisionofficial@gmail.com**
 
 ---
